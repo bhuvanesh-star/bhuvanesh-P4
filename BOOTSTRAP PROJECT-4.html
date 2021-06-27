@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+            <style>
+                *{
+                    box-sizing:border-box;
+                    padding:0;
+                    margin:0;
+                }
+            </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-light bg-warning">
+            <a class="navbar-brand p-2" href="#">
+                modus <span>versus</span>
+            </a>
+            <div class="collapse navbar-collapse " id="navbartoggle">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                       <a class="nav-link">
+                           Menu
+                       </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
+                          <a class="dropdown-item" href="#">Portfolio 1</a>
+                          <a class="dropdown-item" href="#">Portfolio 2</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Portfolio 3</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+            </div>
+        </nav>
+        <div class="carousel" data-target="carousel" id="caro1">
+            <ul class="carousel-indicators">
+                <li data-bs-target="#caro1" data-slide-to="0" class="active"></li>
+                <li data-bs-target="#caro1" data-slide-to="1" ></li>
+                <li data-bs-target="#caro1" data-slide-to="2" ></li>
+            </ul>
+            <div class="carousel-inner" data-bs-target="#caro1">
+                <div class="carousel-item active">
+                    <img src="darth-vader.jpg" alt="bg1">
+                </div>
+                <div class="carousel-item">
+                    <img src="mountain.jpg" alt="bg2">
+                </div>
+                <div class="carousel-item">
+                    <img src="paris-hd-wallpaper-1920x1080.jpg" alt="bg3">
+                </div>
+            </div>
+                <div>
+                    <a class="carousel-control-prev" href="#caro1" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#caro1" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+   
+    </body>
+</html>
